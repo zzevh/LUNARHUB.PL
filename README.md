@@ -24,10 +24,8 @@ The project has been realized using the latest technologies:
 ---
 
 ### **Project Structure**  
-- `pages/` - Files responsible for pages and routing in the application.  
+- `app/` - Main...
 - `components/` - Reusable dynamic components.  
-- `styles/` - Global CSS styles and Tailwind CSS configuration.  
 - `public/` - Static files such as images, fonts, and icons.  
-- `utils/` - Useful functions and configurations supporting the application's operation.  
 
 ---
