@@ -27,7 +27,7 @@ export default function Modes() {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 mt-12 sm:mt-16 [&:has(>div:hover)>div:not(:hover)]:opacity-50 [&:has(>div:hover)>div:not(:hover)]:grayscale">
-          {serverModes.map((mode, index) => (
+          {serverModes.map((mode) => (
             <div 
               key={mode.name}
               className="group relative bg-[#2E1530] border-2 border-transparent hover:border-[#E04AEC] transition-all duration-300"
