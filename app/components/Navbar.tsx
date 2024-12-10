@@ -7,15 +7,15 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-2 sm:px-4 lg:px-8">
         <div className="flex items-center justify-between h-14 sm:h-16 md:h-20 lg:h-24">
           <div className="flex-1 flex items-center justify-center md:justify-start">
-            <Link href="/" className="flex items-center gap-1.5 sm:gap-2 md:gap-4">
+            <Link href="/" className="flex items-center gap-2 sm:gap-2 md:gap-4">
               <Image
                 src="/images/logo.png"
                 alt="LunarHub Logo"
                 width={80}
                 height={80}
-                className="w-12 h-12 sm:w-12 sm:h-12 md:w-16 md:h-16 lg:w-20 lg:h-20"
+                className="w-14 h-14 sm:w-12 sm:h-12 md:w-16 md:h-16 lg:w-20 lg:h-20"
               />
-              <span className="text-lg sm:text-lg md:text-2xl lg:text-3xl text-white font-minecraft tracking-wide font-black self-center" 
+              <span className="text-xl sm:text-lg md:text-2xl lg:text-3xl text-white font-minecraft tracking-wide font-black self-center" 
                     style={{ textShadow: '0 0 1px rgba(255, 255, 255, 0.5)' }}>
                 LUNARHUB.PL
               </span>

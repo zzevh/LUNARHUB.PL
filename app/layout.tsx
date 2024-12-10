@@ -4,8 +4,8 @@ import Navbar from './components/Navbar';
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-  title: "LunarHub.pl - Sklep Minecraft",
-  description: "Najlepszy sklep Minecraft w Polsce",
+  title: "LunarHub.pl - Serwer Minecraft",
+  description: "Najlepszy serwer Minecraft w Polsce!",
 };
 
 export default function RootLayout({
@@ -21,7 +21,7 @@ export default function RootLayout({
             src="/images/hero-background.png"
             alt="Site Background"
             fill
-            className="object-cover opacity-80"
+            className="object-cover object-center sm:object-top opacity-80"
             priority
             sizes="100vw"
             quality={100}
